@@ -3,9 +3,10 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="author" content="Nombre Apellido" />
+        <meta name="author" content="Trinidad Bravo" />
+        <meta name="description" content="Este es mi portafolio profesional de diseñadora" />
         <link href="style.css" rel="stylesheet" />
-        <title>Nombre Apellido</title>
+        <title>Trinidad Bravo F</title>
     </head>
     <body>
         <div class="container">
@@ -17,7 +18,7 @@
                 <section></section>
             </main>
             <footer>
-                <p><a href="#">Trinidad Bravo F</a> <a href="https://github.com/profesorfaco/dno037-2023">DNO037</a></p>
+                <p><a href="https://github.com/tbravofr">Trinidad Bravo F</a> <a href="https://raw.githubusercontent.com/tbravofr/Clase-7/main/datos.json">DNO037</a></p>
             </footer>
         </div>
         <!--Primero vamos a buscar la versión más reciente de jQuery-->
@@ -30,7 +31,7 @@
                 //ponemos una condición
                 if (n != null) {
                     //ahora vamos por los datos
-                    $.getJSON("https://raw.githubusercontent.com/profesorfaco/dno037-2023/main/clase-07/datos.json", function (data) {
+                    $.getJSON("https://raw.githubusercontent.com/tbravofr/Clase-7/main/datos.json", function (data) {
                         console.log(data);
                         //no es necesario el forEach para mostrar el detalle de un trabajo
                         $("section").append("<div><h2>" + data[n].nombre + "</a></h2><p>" + data[n].texto + "</p><small>#" + data[n].soporte + "</small></div>");
